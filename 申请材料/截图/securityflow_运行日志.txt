@@ -1,0 +1,26 @@
+============================================================
+  SecurityFlow - Vulnerability Scanning Pipeline
+============================================================
+  Target:  ./demo/sample_data/
+  Config:  (defaults)
+  Skipped: none
+============================================================
+
+[SecurityFlow] Running SAST scanner ...
+  -> Found 0 issues
+[SecurityFlow] Running DAST scanner ...
+  -> Found 0 issues
+[SecurityFlow] Running SCA scanner ...
+  -> Found 0 vulnerable deps
+[SecurityFlow] Generating remediation plan ...
+  -> Generated 0 remediation items
+
+[SecurityFlow] Scan complete: 0 findings in 35.25s
+[SecurityFlow] Report saved to reports\securityflow_report_20260520_022647.json
+
+  Scan Summary
+  --------------------------------------------------
+  Findings: 0
+  --------------------------------------------------
+
+Report saved to: reports\securityflow_report_20260520_022647.json
